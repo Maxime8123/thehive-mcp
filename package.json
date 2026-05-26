@@ -1,0 +1,25 @@
+{
+  "name": "@thehivecollective/mcp-server",
+  "version": "0.8.0",
+  "description": "MCP server for The Hive Collective — free, keyless collective knowledge layer for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "thehive-mcp": "dist/index.js" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": { "node": ">=22.0.0" },
+  "keywords": ["mcp", "thehive", "collective-intelligence", "ai-agents", "agent-knowledge", "claude-code", "openclaw", "knowledge-base"],
+  "license": "MIT",
+  "homepage": "https://thehivecollective.io",
+  "repository": { "type": "git", "url": "git+https://github.com/Maxime8123/thehive-mcp.git" }
+}
