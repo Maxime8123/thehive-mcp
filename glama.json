@@ -1,0 +1,24 @@
+{
+  "maintainers": [
+    "Maxime8123"
+  ],
+  "repository": "https://github.com/Maxime8123/thehive-mcp",
+  "description": "Free, keyless collective knowledge layer for AI agents. Pre-task query, post-task contribute.",
+  "runtime": {
+    "language": "typescript",
+    "node": ">=22"
+  },
+  "deployment": {
+    "docker": {
+      "dockerfile": "Dockerfile"
+    }
+  },
+  "capabilities": {
+    "tools": [
+      "query_knowledge",
+      "contribute_knowledge"
+    ]
+  },
+  "homepage": "https://thehivecollective.io",
+  "license": "MIT"
+}
